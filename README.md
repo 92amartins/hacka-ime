@@ -4,6 +4,7 @@
 
 - Andrei
 - Rafael
+- Charles
 
 ## Judging Criteria
 
@@ -18,3 +19,4 @@ A ideia é escalável? Pode ser aplicada no mundo real?
 
 ### Funcionamento
 A aplicação pode ser usada em pelo menos um exemplo bem definido? Foi apresentado algum caso de uso?
+
