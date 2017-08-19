@@ -1,5 +1,10 @@
 # hacka-ime
 
+## Team
+
+- Andrei
+- Rafael
+
 ## Judging Criteria
 
 ### Criatividade
