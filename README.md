@@ -1,4 +1,4 @@
-# hacka-ime
+# Hackaton IME-USP 2017 - Utilizando a tecnologia para melhorar a produção científica
 
 ## Team
 
