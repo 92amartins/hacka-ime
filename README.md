@@ -3,8 +3,8 @@
 ## Team
 
 - Andrei
-- Rafael
 - Charles
+- Rafael
 
 ## Judging Criteria
 
