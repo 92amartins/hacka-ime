@@ -12,5 +12,11 @@ top_matches <- function(query){
         corrs[i] <- cosine(as.vector(query), as.vector(reduced_tokenized_dfm[i]))
     }
     
-    tail(sort(corrs), 10)
-}
+    similarities <- sort(corrs, decreasing = TRUE, index.return = TRUE)
+    
+    head(data.frame(id = similarities$ix, 
+                    autor = "Sarajane Marques Peres",
+                    sim = similarities$x,
+                    afiliação = "Universidade de São Paulo",
+                    keywords = "SOM, Redes Neurais, Clustering"), 10)
+    }
