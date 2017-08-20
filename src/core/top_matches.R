@@ -15,8 +15,5 @@ top_matches <- function(query){
     similarities <- sort(corrs, decreasing = TRUE, index.return = TRUE)
     
     head(data.frame(id = similarities$ix, 
-                    autor = "Sarajane Marques Peres",
-                    sim = similarities$x,
-                    afiliação = "Universidade de São Paulo",
-                    keywords = "SOM, Redes Neurais, Clustering"), 10)
-    }
+                    sim = similarities$x), 5)
+}
