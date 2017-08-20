@@ -33,6 +33,6 @@ res <- mutate(df, Text = paste(Abstract, Author.Keywords, Index.Keywords, sep = 
 df2 <- aggregate(res$Text, by=list(res$Author, res$Affiliation), paste, collapse=";") %>%
     tail(10)
 
-names(df2) <- c("Author", "Text", "Affiliation")
+names(df2) <- c("Author", "Affiliation", "Text")
 
 write.csv(df2, file = "data.csv")
